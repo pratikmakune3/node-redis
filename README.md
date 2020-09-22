@@ -1,6 +1,6 @@
 # node-redis
 
-#### H4 A quick PoC to spin up Redis, in-memory database and hook it up with simple Node.js application.
+#### A quick PoC to spin up Redis, in-memory database and hook it up with simple Node.js application.
 
 1. Dockerised the redis by using bitnami/redis image.
    docker pull bitnami/redis
