@@ -2,7 +2,7 @@
 
 #### A quick PoC to spin up Redis, in-memory database and hook it up with simple Node.js application.
 
-1. Dockerised the redis by using bitnami/redis image.
+1. Dockerised Redis by using bitnami/redis image - https://hub.docker.com/r/bitnami/redis
 
    docker pull bitnami/redis
    
