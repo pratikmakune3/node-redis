@@ -6,7 +6,11 @@
 
    docker pull bitnami/redis
    
-   docker run -e ALLOW_EMPTY_PASSWORD=yes -p 6379:6379 bitnami/redis
+   docker run -e ALLOW_EMPTY_PASSWORD=yes —name rdb -p 6379:6379 bitnami/redis
+   
+   SSH to container -->
+   
+   docker exec -it rdb redis-cli
    
 2. redis-cli 
    to access redis cli
